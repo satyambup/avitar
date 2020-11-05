@@ -1,0 +1,126 @@
+.navbar {
+    min-height:32px !important
+}
+.size{
+    height:900px;
+    }
+.li-margin{
+    margin-left:10px;
+    margin-right:10px;
+    }
+.textbox-background{
+    background-size: cover;
+    background-attachment: fixed;
+    }
+.view{
+    height:100%;
+    }
+.full-image{
+    position:relative;
+    }
+.align{
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align: justify;
+    text-justify: inter-word;
+    }
+.text-blocks{
+    position: absolute;
+    top: 0px;
+    right:0px;
+    color: white;
+    }
+.text-blocks-2{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 20px;
+    color: white;
+    }
+.text-blocks-3{
+    width:100%;
+    height:100%;
+    position: absolute;
+    top: 0;
+    right:auto;
+    left:auto;
+    color: white;
+    font-size:2vw;
+    align:center;
+    }
+.gallery-photo-front{
+    height:100%;
+    background-color:rgba(0,0,5,.5);
+    background-size:cover;
+    }
+.gallery-image-text{
+    margin-top:25%;
+    }
+.scroll-content-border{
+    border:1px solid white; !not-important
+    }
+.scroll-content{
+    margin-top:70px;
+    margin-bottom:10px;
+    }
+.scrollspy-navbar-toggler{
+    width:100%;
+    padding :10px 20px;
+    background : #001f44
+    text-align : right;
+    color : white;
+    font-size: 30px;
+    display:none;
+}
+@media (max-width:586px;)
+{
+    .scrollspy-navbar-toggler
+    {
+        display:block;
+    }
+}
+
+/* images */
+.images {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.image-container:hover .images {
+  opacity: 0.3;
+
+}
+
+.image-container:hover .middle {
+  opacity: 1;
+  background-color: rgba(0, 0, 255, 0.4);
+  width:100%;
+  height:100%;
+  top-margin:auto;
+  bottom-margin:auto;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+

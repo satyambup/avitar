@@ -1,0 +1,70 @@
+{% extends 'basic.html' %}
+{% load static %}
+{% block below-nav %}
+<div style="height:55px;">
+
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-4 animated rotateInDownLeft">
+            <div class="full_image">
+                <a href="gallery_group">
+                    <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                    <div class="text-blocks-3 gallery-photo-front">
+                        <div class="gallery-image-text" align="center">
+                            Group Photo
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-4 animated bounceInDown">
+            <div class="full_image">
+                <a href="gallery/group">
+                    <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                    <div class="text-blocks-3 gallery-photo-front">
+                        <div class="gallery-image-text" align="center">
+                            Group Photo
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="col-4 animated rotateInDownRight">
+            <div class="full_image">
+                <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                <div class="text-blocks">
+                    hello
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row my-5">
+        <div class="col-4 animated rotateInUpLeft">
+            <div class="full_image">
+                <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                <div class="text-blocks">
+                    hello
+                </div>
+            </div>
+        </div>
+        <div class="col-4 animated bounceInUp">
+            <div class="full_image">
+                <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                <div class="text-blocks">
+                    hello
+                </div>
+            </div>
+        </div>
+        <div class="col-4 animated rotateInUpRight">
+            <div class="full_image">
+                <img src="{% static 'images/avitar_group.JPG' %}" width="100%">
+                <div class="text-blocks">
+                    <div class="align-middle">hello</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
